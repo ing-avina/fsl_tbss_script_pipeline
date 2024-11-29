@@ -1,8 +1,12 @@
 
-## FSL TBSS pipeline script implementation - README
+## FSL TBSS (implementation script) - README
 
 ### Introduction
-Welcome to the TBSS Pipeline repository! This project aims to provide a streamlined and efficient pipeline for analyzing diffusion-weighted magnetic resonance imaging (DWI) data using FSL's TBSS (Tract-Based Spatial Statistics) tool. This pipeline run fully in command prompt console so, no GUI interfeace is neccesary.
+This tool is tailored for non-coders, requiring only two inputs: the path to the input data and the path where the results should be generated. The script will handle the rest, automating the entire process seamlessly. Additionally, the pipeline allows for customizable parameters, enabling users to adapt the workflow to their specific needs.
+
+The provided scripts incorporate a structured proposal for file naming and organization, ensuring clarity and reproducibility. Users can opt to utilize this system as is or modify it according to their preferences and requirements. This flexibility ensures that the pipeline can accommodate a wide range of research setups and workflows.
+
+With simplicity and efficiency at its core, the TBSS Pipeline is an accessible solution for researchers and clinicians alike, whether they are experienced programmers or entirely new to scripting. 
 
 ### Project Overview
 The TBSS Pipeline project offers a comprehensive solution for processing and analyzing DWI data. By implementing FSL's TBSS tool, researchers can perform voxel-wise statistical analyses to explore the microstructural properties of white matter tracts in the brain. This pipeline provides a standardized workflow that encompasses preprocessing, registration, and statistical analysis, enabling users to derive valuable insights from their DWI data.
