@@ -1,13 +1,13 @@
-Instructions to run this scripts in HPC Albaicín
+**Instructions to run this scripts in HPC enviroments**
 
-To run your script in HPC Albaicín, you need to include specific directives at the top of your script. These directives provide instructions to the job scheduler on how to allocate resources and manage your script execution. Additionally, you may need to load modules and set environment variables to access required software. 
+To run your script in a HPC, you need to include specific directives at the top of your script. These directives provide instructions to the job scheduler on how to allocate resources and manage your script execution. Additionally, you may need to load modules and set environment variables to access required software. 
 
 
-Let's break down the directives: (For detailed information please visit: https://supercomputacion.ugr.es/soporte/pages/ayuda/gestion-de-trabajos.php)
+Let's break down the directives:
 
     --chdir: Sets the working directory for the script. Replace user_name with your username and specify the desired directory path.
     --nodes: Specifies the number of nodes required for your job. In this case, it is set to 1.
-    --partition: Specifies the partition to which your job should be submitted. Replace NOParalela with the appropriate partition name.
+    --partition: Specifies the partition to which your job should be submitted. %Replace partition_name with the appropriate partition name.
     --ntasks: Specifies the total number of tasks or processes needed. Here, it is set to 1.
     --ntasks-per-node: Specifies the number of tasks per node. Set it to 1 in this case.
     --job-name: Specifies a name for your job. Replace job_name with a descriptive name.
@@ -42,7 +42,7 @@ That's it! You have successfully set up and submitted your script to run in HPC 
 #!/bin/bash
 #SBATCH --chdir=/SCRATCH/research_group/user_name/
 #SBATCH --nodes=1
-#SBATCH --partition=NOParalela
+#SBATCH --partition=partition_name
 #SBATCH --ntasks=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --job-name=job_name
