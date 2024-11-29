@@ -2,7 +2,7 @@
 # Author: Biomedical Eng. Ariel Viña-González
 # mail: arielvinag@gmail.com
 # Date: June 2023
-# Place: University of Granada
+
 
 #Step 1.
 path2results=/Users/name/Desktop/raw_data
