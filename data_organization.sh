@@ -2,7 +2,6 @@
 # Author: Biomedical Eng. Ariel Viña-González
 # mail: arielvinag@gmail.com
 # Date: June 2023
-# Place: University of Granada
 
 !/bin/bash
 
