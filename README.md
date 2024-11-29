@@ -1,6 +1,5 @@
-# fsl_tbss_script_pipeline
 
-## TBSS script Pipeline - README
+## FSL TBSS pipeline script implementation - README
 
 ### Introduction
 Welcome to the TBSS Pipeline repository! This project aims to provide a streamlined and efficient pipeline for analyzing diffusion-weighted magnetic resonance imaging (DWI) data using FSL's TBSS (Tract-Based Spatial Statistics) tool. This pipeline run fully in command prompt console so, no GUI interfeace is neccesary.
